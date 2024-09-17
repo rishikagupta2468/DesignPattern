@@ -1,4 +1,4 @@
-package com.learnthencode.designpattern.creational;
+package com.learnthencode.designpattern.creational.builder;
 
 public class Animal {
   private String name;
