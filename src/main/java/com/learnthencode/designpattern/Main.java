@@ -1,12 +1,15 @@
 package com.learnthencode.designpattern;
 
-import com.learnthencode.designpattern.creational.builder.Animal;
+import com.learnthencode.designpattern.creational.singleton.PrintSpoolerLazyInit;
 
 
 public class Main {
   public static void main(String[] args) {
-    // Create an Animal object using the Builder pattern
-    Animal animal = new Animal.Builder("Dog").setType("Mammal").build();
-    System.out.println("Name: " + animal.getName() +  " and Type: " + animal.getType());
+    PrintSpoolerLazyInit spooler = PrintSpoolerLazyInit.getInstance();
+    System.out.println(spooler);
+
+    PrintSpoolerLazyInit spooler2 = PrintSpoolerLazyInit.getInstance();
+    System.out.println(spooler2);
+    System.out.println(spooler == spooler2);
   }
 }

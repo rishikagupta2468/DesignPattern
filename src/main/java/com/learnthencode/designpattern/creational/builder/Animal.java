@@ -1,5 +1,12 @@
 package com.learnthencode.designpattern.creational.builder;
 
+/**
+ * Animal class with a nested static Builder class.
+ *
+ * What is the builder pattern?
+ * It is a creational pattern that separates the construction of a complex object from its representation.
+ * This separation allows the same construction process to create different representations.
+ */
 public class Animal {
   private String name;
   private String type;
