@@ -1,4 +1,4 @@
-package com.learnthencode.designpattern;
+package com.learnthencode.designpattern.creational;
 
 public class Animal {
   private String name;
@@ -24,7 +24,7 @@ public class Animal {
     private String type;
 
     // Required class members are passed in the constructor of the Builder class
-    Builder(String name) {
+    public Builder(String name) {
       this.name = name;
     }
 
