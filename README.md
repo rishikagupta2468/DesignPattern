@@ -47,10 +47,11 @@ This repository covers the following categories of design patterns in Java:
 Here is a brief overview of the repository structure:
 
 ```plaintext
-├── src/
+├── src/main/java/com/learnthencode/designpattern/
 │   ├── creational/
 │   ├── structural/
 │   ├── behavioral/
+|   Main.java
 ├── README.md
 ├── build.gradle
 ├── settings.gradle
